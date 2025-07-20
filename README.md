@@ -1,9 +1,13 @@
 # Scratch-3DS
-A W.I.P. runtime made in C++ aimed to bring any Scratch 3 project over to the Nintendo 3DS.
 
-![Software running a simple Scratch Project](https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/scratchcats3ds.gif)
+A W.I.P. runtime made in C++ aimed to bring any Scratch 3 project over to the Nintendo Wii U.
+
+Check out the original 3DS project [here](https://github.com/NateXS/Scratch-3DS)!
+
+[insert image of game running on wii u]
 
 ## Controls
+
 ![Controls](https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/scratch%203ds%20controls.png)
 To use the mouse you must enter mouse mode by holding L. Use the D-pad to move the mouse, and press R to click.
 
@@ -11,17 +15,23 @@ To use the mouse you must enter mouse mode by holding L. Use the D-pad to move t
 As this is in a very W.I.P state, you will encounter many bugs, crashes, and things that will just not work. 
 
 **List of known limitations:**
-- Sound is not yet implemented
-- Performance on old 3DS starts to tank with many blocks running
-- There is no vector/svg sprite rendering. Images will only render if converted to bitmap beforehand, otherwise the sprite will show as a black square
-- Images will only work if it's in .png or .jpg format
-- If you have a bunch of large images, some may not load
-- Images cannot be over 1024x1024 in resolution
-- Extensions (eg: pen and music extensions) are not yet supported
-- Some blocks may lead to crashing/unintended behavior (please open an issue if you know a block that's causing problems)
+- Sound is not yet implemented.
+- There is no vector/svg sprite rendering. Images will only render if converted to bitmap beforehand, otherwise the sprite will show as a black square.
+- Images will only work if it's in .png or .jpg format.
+- If you have a bunch of large images, some may not load.
+- Extensions (eg: pen and music extensions) are not yet supported.
+- Some blocks may lead to crashing / unintended behavior. (Please open an issue if you know a block that's causing problems.) (Although, there's not a good way to tell if it's a problem with my bad C++ or something with the original project)
 
+## Todo list for Katie
+- ~~Learn C/C++ *wheeze*~~
+- Change the controls to work with the GamePad
+- Get a basic project running on Wii U
+    - Change code to do this
+    - Change building method
+- Detect another controller that's Player 1 and map those controls
+- Rewrite the images system due to the Wii U not needing special treatment
 
-## Unimplimented blocks
+## Unimplemented blocks
 - All say and think blocks
 - All Costume Effects
 - Cloud variables
