@@ -1,7 +1,7 @@
-PLATFORM ?= 3ds
+PLATFORM ?= wiiu
 
-ifeq ($(PLATFORM),3ds)
-    include Makefile_3ds
+ifeq ($(PLATFORM),wiiu)
+    include Makefile_wiiu
 else ifeq ($(PLATFORM),pc)
     include Makefile_pc
 else
